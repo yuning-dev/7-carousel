@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>Review carousel</title>
+    <link href = "carousel.css" rel = "stylesheet">
+    <script src="https://kit.fontawesome.com/973447f94c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id = "title">Our reviews</div>
+    <div class="underline"></div>
+    <div id = "container">
+        <div id = "personalInfoContainer">
+            <img src = "images/aaliyah.jpg" alt = "Reviewer photo" width = "200px" id = "portrait">
+            <div id = "name">Aaliyah</div>
+            <div id = "profession">Engineer</div>
+        </div>
+        <div id = "reviewContainer">Boy desirous families prepared gay reserved add ecstatic say. Replied joy age visitor nothing cottage. Mrs door paid led loud sure easy read. Hastily at perhaps as neither or ye fertile tedious visitor. Use fine bed none call busy dull when. Quiet ought match my right by table means. Principles up do in me favourable affronting. Twenty mother denied effect we to do on.</div>
+        <div id = "arrowsContainer">
+            <i class = "fas fa-chevron-left" class = "arrow" onclick = "previousReview()"></i>
+            <i class = "fas fa-chevron-right" class = "arrow" onclick = "nextReview()"></i>
+        </div>
+        <input type = "submit" value = "Surprise Me" id = "pickRandom" onclick = "pickRandom()">
+    </div>
+</body>
+<script src = "carousel.js"></script>
